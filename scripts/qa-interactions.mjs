@@ -30,7 +30,7 @@ const results = {};
 
 // Tab through every route and ensure focus remains visible/in-document.
 {
-  const routes = ["/", "/work", "/work/6hrs", "/work/dream-of-red-chamber-jade", "/work/xny-clinic", "/work/sentral-dental-clinic", "/work/senada-consulting", "/work/elaine-leong-associates", "/services", "/about", "/contact"];
+  const routes = ["/", "/work", "/work/6hrs", "/work/early-winter", "/work/sokach-diary", "/work/dream-of-red-chamber-jade", "/work/xny-clinic", "/work/sentral-dental-clinic", "/work/senada-consulting", "/work/elaine-leong-associates", "/services", "/about", "/contact"];
   results.keyboardRoutes = {};
   for (const route of routes) {
     const page = await browser.newPage();

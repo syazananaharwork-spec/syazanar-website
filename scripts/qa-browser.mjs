@@ -8,7 +8,7 @@ const axePath = require.resolve("axe-core/axe.min.js");
 const base = process.env.QA_BASE_URL || "http://localhost:3001";
 const chrome = process.env.CHROME_PATH || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 const routes = [
-  "/", "/work", "/work/6hrs", "/work/dream-of-red-chamber-jade",
+  "/", "/work", "/work/6hrs", "/work/early-winter", "/work/sokach-diary", "/work/dream-of-red-chamber-jade",
   "/work/xny-clinic", "/work/sentral-dental-clinic", "/work/senada-consulting",
   "/work/elaine-leong-associates", "/services", "/about", "/contact",
 ];

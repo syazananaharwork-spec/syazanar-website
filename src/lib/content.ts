@@ -86,6 +86,63 @@ export const PROJECTS: readonly Project[] = [
     outcome: "The verified site is live with 14 public pages.",
   },
   {
+    slug: "early-winter",
+    client: "Early Winter",
+    shortClient: "Early Winter",
+    kind: "Concept demonstration",
+    category: "Bilingual café concept",
+    status: "Prospect build",
+    liveUrl: "https://early-winter-cafe.vercel.app/",
+    image: "/work/early-winter-desktop.webp",
+    mobileImage: "/work/early-winter-mobile.webp",
+    imageAlt: "Early Winter café website with a full-bleed coffee-pour hero film",
+    summary:
+      "A café concept that gives a Taichung coffee and dessert house a site of its own, then hands ordering back to the shop the café already runs.",
+    problem:
+      "The café's public face was a store page. The room, the food menu, and the way the place feels had no site of their own, in either of the two languages its customers read.",
+    built:
+      "A hand-built static site in English and Traditional Chinese: a hero film with a working pause control, a featured-dish carousel, a nine-dish menu filtered by course, and directions, phone, and email that act on tap.",
+    decisions: [
+      "English leads with Traditional Chinese running alongside, because the café's audience reads both.",
+      "The menu funnels into the café's existing Shopify menu and bean shop rather than replacing the store.",
+      "Dishes are filtered by course—brunch, coffee, dessert—instead of listed in one long column.",
+      "No framework and no build step, so the page stays light on a phone in the room.",
+    ],
+    enquiryPath:
+      "Visitors move from the hero film into the dish carousel, then out to the café's Shopify menu, its bean shop, or a direct call.",
+    responsive:
+      "The live preview was reviewed at 1440×900 and 390×844, with every homepage section captured at both sizes.",
+    outcome: todo("Prospect build; not yet the café's live production site"),
+  },
+  {
+    slug: "sokach-diary",
+    client: "Sokach Diary",
+    shortClient: "Sokach Diary",
+    kind: "Concept demonstration",
+    category: "Bilingual bakery concept",
+    status: "Live concept",
+    liveUrl: "https://sokach-diary.vercel.app/",
+    image: "/work/sokach-diary-desktop.webp",
+    mobileImage: "/work/sokach-diary-mobile.webp",
+    imageAlt: "Sokach Diary bakery concept featuring an original Basque cheesecake",
+    summary:
+      "A bilingual bakery diary concept that presents small-batch bakes as an evolving editorial collection and routes orders to Instagram.",
+    problem:
+      "A small-batch bakery needs more character than a fixed product catalogue. The experience had to make each bake memorable while keeping current availability and ordering flexible.",
+    built:
+      "A responsive one-page concept with an interactive flavour hero, brand story, bake collection, working approach, Traditional Chinese content, and an Instagram ordering path.",
+    decisions: [
+      "The collection is framed as diary pages rather than permanent stock.",
+      "English and Traditional Chinese share one visual system.",
+      "Editorial food photography carries each flavour's point of view.",
+      "Instagram remains the source for current bakes, availability, and orders.",
+    ],
+    enquiryPath:
+      "Visitors move from the flavour-led hero and bake collection into a direct Instagram message for the current selection and order details.",
+    responsive: "The live deployment was verified at desktop and mobile portfolio sizes.",
+    outcome: todo("Concept only; no commercial outcome documented"),
+  },
+  {
     slug: "dream-of-red-chamber-jade",
     client: "Dream of Red Chamber Jade",
     shortClient: "Dream of Red Chamber",
